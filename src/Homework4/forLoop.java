@@ -1,4 +1,4 @@
-package homework4;
+package Homework4;
 
 public class forLoop {
     public static void main(String[] args) {
