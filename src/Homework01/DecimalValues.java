@@ -1,4 +1,4 @@
-package Homework;
+package Homework01;
 
 public class DecimalValues {
     public static void main(String[] args) {
