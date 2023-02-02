@@ -3,6 +3,9 @@ package Homework10;
 public class Task5palidrome {
 
         public static void main(String[] args) {
+
+            /*How would you check if String is palindrome or not? aba=> true
+            Abbc =>false*/
             String s = "aba";
             int n = s.length();
             boolean isPalindrome = true;
