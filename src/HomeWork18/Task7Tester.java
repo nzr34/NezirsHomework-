@@ -1,6 +1,5 @@
-package HomeWork19;
+package HomeWork18;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Task7Tester {

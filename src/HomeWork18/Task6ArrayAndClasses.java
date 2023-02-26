@@ -1,4 +1,4 @@
-package HomeWork19;
+package HomeWork18;
 
 public class Task6ArrayAndClasses {
 

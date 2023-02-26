@@ -1,4 +1,4 @@
-package HomeWork19;
+package HomeWork18;
 
 import java.util.ArrayList;
 
@@ -20,7 +20,7 @@ public class Task4ArrayListOfDrinks {
         System.out.println();
         System.out.println("<><><><><><><><><>After<><><><><><><><><>");
         for (int i = 0; i < drinks.size(); i++) {
-            if (drinks.get(i).endsWith("a") || drinks.get(i).endsWith("e")) {
+            if (drinks.get(i).contains("a") || drinks.get(i).contains("e")) {
                 drinks.set(i, "Water");
             }
 
