@@ -3,12 +3,12 @@ package HomeWork08;
 public class Task3Groceries {
     public static void main(String[] args) {
         String[][] groceryList = {{"Veggies: ", "Carrots", "Broccoli", "Spinach", "Celery"},
-                                  {"Fruits: ", "Apples", "Bananas", "Oranges", "Grapes"},
-                                  {"Dairy: ", "Milk", "Cheese", "Yogurt", "Butter"},
-                                  {"Sweets: ", "Cake", "Cookies", "Ice cream", "Candy"}};
+                {"Fruits: ", "Apples", "Bananas", "Oranges", "Grapes"},
+                {"Dairy: ", "Milk", "Cheese", "Yogurt", "Butter"},
+                {"Sweets: ", "Cake", "Cookies", "Ice cream", "Candy"}};
         for (int i = 0; i < groceryList.length; i++) {
             for (int j = 0; j < groceryList[i].length; j++) {
-                System.out.print(groceryList[i][j]+" ");
+                System.out.print(groceryList[i][j] + " ");
 
 
             }
@@ -23,4 +23,5 @@ public class Task3Groceries {
             System.out.println();
         }
 
-}}
+    }
+}

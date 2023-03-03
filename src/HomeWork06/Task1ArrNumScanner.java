@@ -8,15 +8,16 @@ public class Task1ArrNumScanner {
         After the array is created,
         calculate the sum of all stored
         elements in that array.*/
-        Scanner input=new Scanner(System.in);
-        int sum=0;
-        int[]numbers=new int[7];
+        Scanner input = new Scanner(System.in);
+        int sum = 0;
+        int[] numbers = new int[7];
         System.out.println("Please Enter 7 numbers :");
-        for (int i= 0; i < numbers.length; i++) {
+        for (int i = 0; i < numbers.length; i++) {
 
             numbers[i] = input.nextInt();
             sum = sum + numbers[i];
-        }System.out.println(sum);
-      }
+        }
+        System.out.println(sum);
     }
+}
 

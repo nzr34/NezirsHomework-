@@ -29,6 +29,5 @@ public class Task4PracticeVariables {
         System.out.println("MyChar      : " + myChar);
 
 
-
     }
 }

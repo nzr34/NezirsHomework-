@@ -5,7 +5,7 @@ public class Task1ReplaceMethod {
         /* Create a String that will hold a sentence. Write a program to get a new String without any spaces.*/
 
 
-        String aa="Create a String that will hold a sentence. Write a program to get a new String without any spaces";
-        System.out.println(aa.replaceAll(" ",""));
+        String aa = "Create a String that will hold a sentence. Write a program to get a new String without any spaces";
+        System.out.println(aa.replaceAll(" ", ""));
     }
 }

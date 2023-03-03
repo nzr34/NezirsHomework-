@@ -5,6 +5,6 @@ import HomeWork13.Task3FourDifCon;
 public class HomeWorkFrom13 {
     public static void main(String[] args) {
 
-        Task3FourDifCon newCon3=new Task3FourDifCon("Lego",14,4);
+        Task3FourDifCon newCon3 = new Task3FourDifCon("Lego", 14, 4);
     }
 }

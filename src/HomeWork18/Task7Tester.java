@@ -11,14 +11,13 @@ public class Task7Tester {
         cards.add(new Task7CardClass.Card(25.00, "Bofa"));
 
         for (int i = 0; i < cards.size(); i++) {
-            System.out.println(cards.get(i).cardType+" :"+cards.get(i).interestRate);
+            System.out.println(cards.get(i).cardType + " :" + cards.get(i).interestRate);
 
         }
         for (Task7CardClass.Card card : cards) {
             System.out.println(card.cardType + " :" + card.interestRate);
 
         }
-
 
 
     }

@@ -14,9 +14,8 @@ public class Task7CardClass {
         public Card(double interestRate, String cardType) {
             this.interestRate = interestRate;
             this.cardType = cardType;
-            System.out.println(cardType+" interest rate is  :"+interestRate);
+            System.out.println(cardType + " interest rate is  :" + interestRate);
         }
-
 
 
     }

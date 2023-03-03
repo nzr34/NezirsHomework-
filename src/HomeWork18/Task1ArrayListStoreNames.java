@@ -8,7 +8,7 @@ public class Task1ArrayListStoreNames {
          Check whether the specific name is present in an ArrayList or not?
          Find the size of your arrayList and print all values from that*/
     public static void main(String[] args) {
-        ArrayList<String>names=new ArrayList<>();
+        ArrayList<String> names = new ArrayList<>();
         names.add("john");
         names.add("Billy");
         names.add("David");

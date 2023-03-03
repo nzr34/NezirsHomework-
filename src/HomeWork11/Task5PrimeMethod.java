@@ -1,9 +1,9 @@
 package HomeWork11;
 
 public class Task5PrimeMethod {
-   static int primeChecker(int num) {
-       /*5) Write a method to return whether given number is prime or not?
-        */
+    static int primeChecker(int num) {
+        /*5) Write a method to return whether given number is prime or not?
+         */
 
         boolean isPrime = true;
         if (num <= 1) {

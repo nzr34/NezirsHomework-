@@ -1,4 +1,5 @@
 package HomeWork12;
+
 public class Task2ReversedWords {
     /*
     Create a method that will take a String as a parameter
@@ -7,12 +8,12 @@ public class Task2ReversedWords {
      */
 
 
-    public static String reverseWords(String input){
+    public static String reverseWords(String input) {
         return new StringBuilder(input).reverse().toString();
     }
 
     public static void main(String[] args) {
 
-        System.out.println( reverseWords("monday"));
+        System.out.println(reverseWords("monday"));
     }
 }

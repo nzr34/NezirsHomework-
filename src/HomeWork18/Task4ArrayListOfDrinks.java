@@ -14,7 +14,7 @@ public class Task4ArrayListOfDrinks {
         drinks.add("Tea");
         System.out.println(drinks);
         for (String drink : drinks) {
-            System.out.print(" "+drink);
+            System.out.print(" " + drink);
 
         }
         System.out.println();
@@ -25,11 +25,10 @@ public class Task4ArrayListOfDrinks {
             }
 
 
-
-            }
+        }
         System.out.println(drinks);
         for (String drink : drinks) {
-            System.out.print(" "+drink);
+            System.out.print(" " + drink);
 
         }
     }

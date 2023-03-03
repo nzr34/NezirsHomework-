@@ -1,8 +1,8 @@
 package HomeWork12;
 
 public class Task3StringVowels {
-    private  String vovels(String str){
-       return str.replaceAll("[^AaEeIiOoUuYyWw]","");
+    private String vovels(String str) {
+        return str.replaceAll("[^AaEeIiOoUuYyWw]", "");
 
     }
 

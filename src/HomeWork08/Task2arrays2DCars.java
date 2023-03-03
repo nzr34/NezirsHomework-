@@ -3,9 +3,9 @@ package HomeWork08;
 public class Task2arrays2DCars {
     public static void main(String[] args) {
         String[][] cars = {{"American cars: ", "Ford,", "Chevy,", "Dodge."},
-                            {"German cars: ", "BMW,", "Mercedes,", "Audi."},
-                            {"Korean cars: ", "Hyundai,", "Kia.", "Genesis."},
-                            {"Italian cars: ", "Ferrari,", "Lamborghini,", "Maserati."}};
+                {"German cars: ", "BMW,", "Mercedes,", "Audi."},
+                {"Korean cars: ", "Hyundai,", "Kia.", "Genesis."},
+                {"Italian cars: ", "Ferrari,", "Lamborghini,", "Maserati."}};
 
 // First loop: using for-each loop
         for (String[] carGroup : cars) {

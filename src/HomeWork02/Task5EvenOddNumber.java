@@ -11,9 +11,9 @@ public class Task5EvenOddNumber {
 
         int number = evenOddNumber.nextInt();
 
-        if (number%2==0){
+        if (number % 2 == 0) {
             System.out.println("The number you enter is Even.");
-        }else{
+        } else {
             System.out.println("The number you enter is Odd.");
         }
     }

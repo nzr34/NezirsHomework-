@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Task6TesterInsurenace {
     public static void main(String[] args) {
-        ArrayList<Task6ArrayAndClasses.Insurance>insurance=new ArrayList<>();
+        ArrayList<Task6ArrayAndClasses.Insurance> insurance = new ArrayList<>();
         insurance.add(new Task6ArrayAndClasses.Car("BMW"));
         insurance.add(new Task6ArrayAndClasses.Pet("Dog"));
         insurance.add(new Task6ArrayAndClasses.Health());

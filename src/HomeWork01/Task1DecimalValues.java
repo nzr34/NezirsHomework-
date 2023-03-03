@@ -9,16 +9,14 @@ public class Task1DecimalValues {
        b)Write a program to find the square of the number 3.9. You program should say “The square of the  is  “
        */
 
-        double x=10.5;
-        double y=10.5;
+        double x = 10.5;
+        double y = 10.5;
 
-        System.out.println("The Addition of 2 numbers "+x+" and "+y+"  is equal to "+(x+y));
-        System.out.println("The Subtraction of 2 numbers "+x+" and "+y+"  is equal to "+(x-y));
-        System.out.println("The Multiplication of 2 numbers "+x+" and "+y+"  is equal to "+(x*y));
-        System.out.println("The Division of 2 numbers "+x+" and "+y+"  is equal to "+(x/y));
-        System.out.println("The Square of the "+x+" is equal to "+(x*x));
-
-
+        System.out.println("The Addition of 2 numbers " + x + " and " + y + "  is equal to " + (x + y));
+        System.out.println("The Subtraction of 2 numbers " + x + " and " + y + "  is equal to " + (x - y));
+        System.out.println("The Multiplication of 2 numbers " + x + " and " + y + "  is equal to " + (x * y));
+        System.out.println("The Division of 2 numbers " + x + " and " + y + "  is equal to " + (x / y));
+        System.out.println("The Square of the " + x + " is equal to " + (x * x));
 
 
     }

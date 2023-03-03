@@ -31,9 +31,9 @@ public class Task3MomAndDad {
 
         String suggestedName;
         if (gender.equalsIgnoreCase("boy")) {
-            suggestedName = dadName.substring(0, dadName.length()/2) + momName.substring(0, momName.length()/2);
+            suggestedName = dadName.substring(0, dadName.length() / 2) + momName.substring(0, momName.length() / 2);
         } else {
-            suggestedName = momName.substring(0, momName.length()/2) + dadName.substring(0, dadName.length()/2);
+            suggestedName = momName.substring(0, momName.length() / 2) + dadName.substring(0, dadName.length() / 2);
         }
         System.out.println("Suggested baby name: " + suggestedName);
     }

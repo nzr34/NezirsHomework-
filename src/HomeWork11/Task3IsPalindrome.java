@@ -13,7 +13,7 @@ public class Task3IsPalindrome {
     }
 
     public static void main(String[] args) {
-        Task3IsPalindrome newWord=new Task3IsPalindrome();
+        Task3IsPalindrome newWord = new Task3IsPalindrome();
         System.out.println(newWord.isPalindrome("John"));
         System.out.println(newWord.isPalindrome("Level"));
     }
