@@ -1,16 +1,16 @@
 package InClassPractice;
 
-public class Student {
+public class StudentTwo {
     String name;
     String address;
 
-    Student(String name, String address) {
+    StudentTwo(String name, String address) {
         this.name = name;
         this.address = address;
         System.out.println(this.name + " " + this.address);
     }
 
     public static void main(String[] args) {
-        Student student1 = new Student("John", "123 nw 17th street  apt 4");
+        StudentTwo student1 = new StudentTwo("John", "123 nw 17th street  apt 4");
     }
 }

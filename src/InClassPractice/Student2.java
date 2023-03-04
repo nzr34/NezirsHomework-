@@ -1,6 +1,6 @@
 package InClassPractice;
 
-public class Student {
+class Student {
     public void StudentMethod() {
         System.out.println("This is Parent Class");
     }

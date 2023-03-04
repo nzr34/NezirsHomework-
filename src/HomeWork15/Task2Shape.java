@@ -1,10 +1,10 @@
 package HomeWork15;
 
-public class Shape {
+public class Task2Shape {
     double radius;
     static double piValue = 3.14;
 
-    Shape(double radius) {
+    Task2Shape(double radius) {
         this.radius = radius;
     }
 
@@ -13,7 +13,7 @@ public class Shape {
     }
 }
 
-class Circle extends Shape {
+class Circle extends Task2Shape {
     Circle(double radius) {
         super(radius);
 
